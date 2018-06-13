@@ -1,0 +1,20 @@
+***REQUISITOS***
+
+-XAMPP instalado.
+
+
+***INSTRUCCIONES***
+
+1-Copiar la carpeta "TiendaTerraruosWeb" dentro de la carpeta "htdocs" situada en la carpeta "XAMPP".
+
+2-Para disponer de la base de datos debe abrirse el localhost:puerto/phpmyadmin/ crear una nueva BBDD
+con el nombre Terrarios (si no en el archivo db.php deberá indicar el nombre que usted haya elegido).
+Una vez creada la BBDD deberá importar los datos a esta el fichero con nombre DatosBBDD.sql
+
+3-Ejecutar el panel de control de "XAMPP" e iniciar los procesos "Apache" y "MySQL"
+
+4-Abrir el navegador e introducir la siguiente url : "http://localhost/TiendaTerraruosWeb/index.html".
+
+5-Si quiere visualizar los JSON "http://localhost/TiendaTerraruosWeb/animales.php" o "http://localhost/TiendaTerraruosWeb/platanas.php" o "http://localhost/TiendaTerraruosWeb/ubicacion.php".
+
+

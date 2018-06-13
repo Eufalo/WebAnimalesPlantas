@@ -1,0 +1,111 @@
+#MyFooter {
+	background-color: #373a48;
+	color:white;
+}
+
+#MyFooter .footer-copyright{
+	background-color: #383737;
+	padding-top:3px;
+	padding-bottom:3px;
+	text-align: center;
+}
+html{
+	height: 100% !important;
+}
+
+body{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    height: 100%;
+}
+#MyFooter .footer-copyright p{
+	margin:10px;
+	color: #ccc;
+}
+
+#MyFooter ul{
+	list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+
+}
+
+#MyFooter h5{
+	font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#MyFooter a{
+	color:#d2d1d1;
+	text-decoration: none;
+}
+
+#MyFooter a:hover, #MyFooter a:focus{
+	text-decoration: none;
+	color:white;
+}
+
+#MyFooter .myCols{
+	text-align: center;
+}
+
+#MyFooter .social-networks{
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 38px;
+}
+
+#MyFooter .social-networks a{
+    font-size: 32px;
+    margin-right: 5px;
+    margin-left: 5px;
+    color: #f9f9f9;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+#MyFooter .social-networks a:hover{
+	text-decoration: none;
+
+}
+
+#MyFooter .facebook:hover{
+	color:#0077e2;
+}
+
+#MyFooter .google:hover{
+	color:#ef1a1a;
+}
+
+#MyFooter .twitter:hover{
+	color: #00aced;
+}
+
+@media screen and (max-width: 767px){
+	#MyFooter {
+		text-align: center;
+	}
+}
+
+
+
+/* CSS used for positioning the footers at the bottom of the page. */
+/* You can remove this. */
+
+
+
+
+.content{
+	flex: 1 0 auto;
+	-webkit-flex: 1 0 auto;
+	min-height: 200px;
+}
+
+#MyFooter{
+	flex: 0 0 auto;
+    -webkit-flex: 0 0 auto;
+}

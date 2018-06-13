@@ -1,0 +1,183 @@
+
+.ui-icon-icon-contacto{/*cambiar icono cabecera*/
+	background-image: url("./img/icons/contacto.svg");
+  background-color: transparent;
+  background-size:11px 36px;
+  background-repeat: no-repeat;
+	padding: inherit;
+	-ms-transform: scale(3); /* IE 9 */
+  -webkit-transform: scale(3); /* Chrome, Safari, Opera */
+  transform: scale(3);
+
+}
+.ui-icon-icon-home{/*cambiar icono cabecera*/
+	background-image: url("./img/icons/house.svg");
+  background-color: transparent;
+  background-size:14px 37px;
+  background-repeat: no-repeat;
+	padding: inherit;
+	-ms-transform: scale(3); /* IE 9 */
+  -webkit-transform: scale(3); /* Chrome, Safari, Opera */
+  transform: scale(3);
+
+}
+
+.ui-icon-icon-animales{/*cambiar icono cabecera*/
+	background-image: url("./img/icons/gecko.svg");
+  background-color: transparent;
+  background-size:14px 43px;
+	background-position: bottom;
+	padding: inherit;
+  background-repeat: no-repeat;
+	-ms-transform: scale(3); /* IE 9 */
+  -webkit-transform: scale(3); /* Chrome, Safari, Opera */
+  transform: scale(3);
+
+}
+.ui-icon-icon-plantas{/*cambiar icono cabecera*/
+	background-image: url("./img/icons/planta.svg");
+  background-color: transparent;
+  background-size:14px 37px;
+	padding: inherit;
+  background-repeat: no-repeat;
+	-ms-transform: scale(3); /* IE 9 */
+  -webkit-transform: scale(3); /* Chrome, Safari, Opera */
+  transform: scale(3);
+}
+.ui-icon-icon-terrarios{/*cambiar icono cabecera*/
+	background-image: url("./img/icons/terrarium.svg");
+  background-color: transparent;
+  background-size:14px 37px;
+	padding: inherit;
+  background-repeat: no-repeat;
+	-ms-transform: scale(3); /* IE 9 */
+  -webkit-transform: scale(3); /* Chrome, Safari, Opera */
+  transform: scale(3);
+
+}
+
+#MyFooter {/* botones cabecera*/
+    margin-top: 10px;
+    background:#9856af;
+}
+#cabecera{/*fondo de la cabecera*/
+  margin: 2px 0px 20px 0px;
+
+  background:#FC2323;
+  background-image: url("./img/Carrousel/Gecko2.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position:top;
+  background-size:100% 50%;
+}
+#cabecera>background-image{
+	display: block;
+}
+.botonesMenuCabecera{/*Posicion botones cabecera*/
+  margin: 15% 0px 2px 0px;
+}
+.ui-navbar > ul > li > a > .ui-btn-inner > .ui-btn-text/*Color texto botones navegacion cabecera*/
+ {
+   color:#34FE56;
+}
+.ui-header > .ui-btn, .ui-footer > .ui-btn{
+    display: inline-block;
+    margin: 10px 2px 2px 2px;
+}
+.ui-title{
+  color:#fcf76c;
+  margin: 60px 2px 2px 2px;
+}
+#titulo {
+    min-height: 1.1em;
+    text-align: center;
+    font-size: 16px;
+    display: block;
+    margin: 30px 10% .8em;
+    padding: 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    outline: 0!important;
+}
+.carousel-inner > .item > img {/*cenrado de imagenes en el carrusel*/
+    margin: 0 auto;
+
+}
+.carousel .item {
+	height : 368px;
+}
+@media screen and (max-width: 1024px) {/* Centrado tablet menor a 1024*/
+    .sidenav {
+        height: auto;
+        padding: 15px;
+    }
+		.botonesMenuCabecera{/*Posicion botones cabecera*/
+		  margin: 25% 0px 2px 0px;
+		}
+    .row.content {
+      height:auto;
+    }
+    #donar{
+        height: 90px;
+        width: 300px;
+    }
+	#ocultar{
+		color:black;
+	}
+
+	.carousel-inner > .item > img {
+    margin: 0 auto;
+	}
+
+	.carousel .item {
+		height : 400px;
+	}
+	#cabecera{/*fondo de la cabecera*/
+	  margin: 2px 0px 20px 0px;
+
+	  background:#FC2323;
+	  background-image: url("./img/Carrousel/Gecko2.jpg");
+	  background-repeat: no-repeat;
+	  background-attachment: fixed;
+	  background-position:top;
+	  background-size:100% 30%;
+	}
+}
+
+@media screen and (max-width: 414px) {/* Centrado en el movil menor a 414*/
+    .sidenav {
+        height: auto;
+        padding: 15px;
+    }
+		.botonesMenuCabecera{/*Posicion botones cabecera*/
+		  margin: 15% 0px 2px 0px;
+		}
+    .row.content {
+      height:auto;
+    }
+    #donar{
+        height: 90px;
+        width: 300px;
+    }
+	#ocultar{
+		color:black;
+	}
+
+	.carousel-inner > .item > img {
+    margin: 0 auto;
+	}
+
+	.carousel .item {
+		height : 210px;
+	}
+	#cabecera{/*fondo de la cabecera*/
+	  margin: 2px 0px 20px 0px;
+	  background:#FC2323;
+	  background-image: url("./img/Carrousel/Gecko2.jpg");
+	  background-repeat: no-repeat;
+	  background-attachment: fixed;
+	  background-position:top;
+	  background-size:100% 25%;
+	}
+}

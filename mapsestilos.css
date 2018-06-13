@@ -1,0 +1,34 @@
+/* ------ El mapa ------ */
+#map {
+    height: 450px;
+	width: 100%;
+}
+/* ------ Los títulos ------ */
+.titulo {
+	color:blue;
+}
+
+/* ------ La tabla ------ */
+table {
+    /*
+	margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+	*/
+	width: 100%;	
+}
+
+thead {
+	font-size: 1.2em;
+	color: white;
+	background-color: blue;
+}
+th, td {
+	border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){
+	background-color: #f2f2f2
+}
